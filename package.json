@@ -4,7 +4,9 @@
   "description": "JavaScript development environment",
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
-    "start": "node buildScripts/server.js"
+    "start": "node buildScripts/server.js",
+    "security-check": "nsp check",
+    "share": "lt --port 3300"
   },
   "author": "Menghong Chhay",
   "license": "MIT",
