@@ -6,7 +6,8 @@
     "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/server.js",
     "security-check": "nsp check",
-    "share": "lt --port 3300"
+    "share": "lt --port 3300",
+    "start-parallel": "npm-run-all --parallel security-check start"
   },
   "author": "Menghong Chhay",
   "license": "MIT",
